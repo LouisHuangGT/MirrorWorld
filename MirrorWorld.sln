@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirrorWorld", "MirrorWorld.csproj", "{720BAAAB-634B-BAE5-30EA-202CE17565EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirrorWorld.Plugins", "MirrorWorld.Plugins.csproj", "{C1FC28C4-3D36-8313-9462-6F1B161489BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirrorWorld.Editor.Plugins", "MirrorWorld.Editor.Plugins.csproj", "{2F45906D-F178-36DE-35B0-9B16E4B828E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{720BAAAB-634B-BAE5-30EA-202CE17565EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720BAAAB-634B-BAE5-30EA-202CE17565EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720BAAAB-634B-BAE5-30EA-202CE17565EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720BAAAB-634B-BAE5-30EA-202CE17565EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1FC28C4-3D36-8313-9462-6F1B161489BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1FC28C4-3D36-8313-9462-6F1B161489BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1FC28C4-3D36-8313-9462-6F1B161489BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1FC28C4-3D36-8313-9462-6F1B161489BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F45906D-F178-36DE-35B0-9B16E4B828E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F45906D-F178-36DE-35B0-9B16E4B828E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F45906D-F178-36DE-35B0-9B16E4B828E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F45906D-F178-36DE-35B0-9B16E4B828E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
