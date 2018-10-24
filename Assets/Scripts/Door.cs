@@ -25,7 +25,7 @@ public class Door : MonoBehaviour {
     {
         if (other.tag == "Player" && keyNumber>=keyRequired)
         {
-            if (SceneManager.GetActiveScene().buildIndex < 9)
+            if (SceneManager.GetActiveScene().buildIndex < 10)
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             else
             {

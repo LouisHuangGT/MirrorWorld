@@ -67,10 +67,10 @@ MonoBehaviour:
     y: 0
     width: 445
     height: 947
-  m_MinSize: {x: 234, y: 471}
-  m_MaxSize: {x: 10004, y: 14021}
+  m_MinSize: {x: 234, y: 492}
+  m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 16160
+  controlID: 54
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -114,7 +114,7 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: 2 by 3
+  m_LastLoadedLayoutName: 
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,10 +136,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 713, y: 471}
-  m_MaxSize: {x: 18008, y: 14021}
+  m_MinSize: {x: 713, y: 492}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 16021
+  controlID: 101
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -183,7 +183,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 16022
+  controlID: 80
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,8 +227,8 @@ MonoBehaviour:
     y: 0
     width: 567
     height: 947
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -277,8 +277,8 @@ MonoBehaviour:
     y: 486
     width: 908
     height: 461
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -313,23 +313,23 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 565aebff405bebff6e5eebff645febff4a60ebff7461ebff3662ebffde62ebffbc63ebff7e64ebff2065ebff3065ebff706bebfff86bebff2a6febff2470ebff0e71ebff3c72ebff0273ebffae73ebff9074ebff5675ebfffc75ebff1076ebff9277ebffdc81ebff6288ebff4c89ebff7a8cebff708debff568eebff808febff4290ebffea90ebffc891ebff8a92ebff2c93ebff3c93ebff78a8ebff62a9ebff94acebff8eadebff78aeebffa6afebff6cb0ebff18b1ebfffab1ebffc0b2ebff66b3ebff76b3ebff02bbebffaac5ebffbe67ecff646aecff3666eeffc867eeffce67eeffa28feefff68feeff5c90eeffcca5eeff3025efff9629efff782defff4231efff7c35efff4839efffa43fefff5eabf0ffa4adf0ffa45ef1ff52d6f1ff68d6f1ff8cd8f1ffc05ff3fffe61f3ffbcaff3ff08b1f3ffbcb2f3ff0041f4ffa4e5f4ffa8e5f4fffce6f4ff000000001ae701002cfc01000623020040230200762a0200
+    m_SelectedIDs: 16a40000
+    m_LastClickedID: 42006
+    m_ExpandedIDs: de55f6ffa4b0faff2ab5faff34b5faff6c8afdff8cf2feff8ef2feff3a1dffff8222ffffb827ffffac2cffffc631ffffae36ffff643bffff6640ffff4e45ffffb64bffff1291ffff86acffff08b3ffff62b9ffff0abfffffaec4ffff72caffff00d2ffff2ed8ffff28deffff98fbffff000000000e5b000010780000c4780000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Canvas
-      m_OriginalName: Canvas
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -1153482
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 9}
     m_SearchString: 
@@ -421,9 +421,9 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e82c0000
-    m_LastClickedID: 11496
-    m_ExpandedIDs: 6e280000602d000000ca9a3bffffff7f
+    m_SelectedIDs: fa2c0000
+    m_LastClickedID: 11514
+    m_ExpandedIDs: 0000000074280000762d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -451,7 +451,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 6e280000602d000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000074280000762d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -479,21 +479,21 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 
+    m_ExpandedInstanceIDs: e4080000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Level 5
-      m_OriginalName: Level 5
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 45742
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 2}
     m_CreateAssetUtility:
@@ -505,7 +505,7 @@ MonoBehaviour:
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
-  m_DirectoriesAreaWidth: 115
+  m_DirectoriesAreaWidth: 160
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -611,14 +611,14 @@ MonoBehaviour:
     height: 465
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 9983.62486785202
+  lastFramingTime: 2364.481795558875
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 86.847755, y: 164.35497, z: -8.205878}
+    m_Target: {x: -1.322757, y: -0.2265723, z: 2.8671875}
     speed: 2
-    m_Value: {x: 86.847755, y: 164.35497, z: -8.205878}
+    m_Value: {x: -1.322757, y: -0.2265723, z: 2.8671875}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -646,15 +646,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 854.82477
+    m_Target: 16.846292
     speed: 2
-    m_Value: 854.82477
+    m_Value: 16.846292
   m_Ortho:
     m_Target: 1
     speed: 2
     m_Value: 1
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: -0.3061437, y: -0.21595344, z: 0.071519256, w: -0.92440534}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 

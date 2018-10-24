@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Flip : MonoBehaviour {
 
+    public GameObject flipAxis;
     public GameObject FlippableObjects;
 	// Use this for initialization
 	void Start () {
@@ -17,7 +18,7 @@ public class Flip : MonoBehaviour {
            
             foreach (Transform child in FlippableObjects.transform)
             {
-                child.transform.RotateAround(transform.position,Vector3.up, 180);
+                child.transform.RotateAround(flipAxis.transform.position,Vector3.up, 180);
             }
         }
 	}
