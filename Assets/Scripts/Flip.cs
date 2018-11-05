@@ -7,6 +7,7 @@ public class Flip : MonoBehaviour {
     public GameObject flipAxis;
     public GameObject FlippableObjects;
     public bool rotating = false;
+    public bool originalFace = true;
     public float rotationTime = 2f;
     public float anticipatedRotationAngle = 100f;
     float rotationStep;
@@ -22,9 +23,10 @@ public class Flip : MonoBehaviour {
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.F))
         {
-            rotating = true;
-            timer = Time.time;
-            totalRotationAngle = 0f;
+            //if (FlippableObjects.transform.rotation == Quaternion.Euler(0, 180, 0) || FlippableObjects.transform.rotation == Quaternion.Euler(0, 0, 0))
+                rotating = true;
+                timer = Time.time;
+                totalRotationAngle = 0f;
         }
 
         if (aticipatedRotation)
@@ -35,9 +37,9 @@ public class Flip : MonoBehaviour {
                 totalRotationAngle += rotationStep;
                 if (Time.time - timer > rotationTime)
                 {
-                    
-                    rotating = false;
                     FlippableObjects.transform.RotateAround(flipAxis.transform.position, Vector3.up, 180- totalRotationAngle);
+                    rotating = false;
+                    
                 }
             }
         }
