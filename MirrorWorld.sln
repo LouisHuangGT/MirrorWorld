@@ -5,8 +5,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirrorWorld", "MirrorWorld.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirrorWorld.Plugins", "MirrorWorld.Plugins.csproj", "{C1FC28C4-3D36-8313-9462-6F1B161489BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirrorWorld.Editor.Plugins", "MirrorWorld.Editor.Plugins.csproj", "{2F45906D-F178-36DE-35B0-9B16E4B828E4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MirrorWorld.Editor", "MirrorWorld.Editor.csproj", "{0CD692B3-3766-40B3-7E52-91997AC2C771}"
 EndProject
 Global
@@ -23,10 +21,6 @@ Global
 		{C1FC28C4-3D36-8313-9462-6F1B161489BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1FC28C4-3D36-8313-9462-6F1B161489BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1FC28C4-3D36-8313-9462-6F1B161489BA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2F45906D-F178-36DE-35B0-9B16E4B828E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2F45906D-F178-36DE-35B0-9B16E4B828E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2F45906D-F178-36DE-35B0-9B16E4B828E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2F45906D-F178-36DE-35B0-9B16E4B828E4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0CD692B3-3766-40B3-7E52-91997AC2C771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0CD692B3-3766-40B3-7E52-91997AC2C771}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CD692B3-3766-40B3-7E52-91997AC2C771}.Release|Any CPU.ActiveCfg = Release|Any CPU

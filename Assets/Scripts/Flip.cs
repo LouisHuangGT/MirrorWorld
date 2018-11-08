@@ -20,7 +20,7 @@ public class Flip : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown(KeyCode.F))
+		if (Input.GetKeyDown(KeyCode.F) && !rotating)
         {
             rotating = true;
             timer = Time.time;
@@ -31,11 +31,13 @@ public class Flip : MonoBehaviour {
         {
             if (rotating)
             {
+                this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
                 FlippableObjects.transform.RotateAround(flipAxis.transform.position, Vector3.up, rotationStep);
                 totalRotationAngle += rotationStep;
                 if (Time.time - timer > rotationTime)
                 {
-                    
+                    this.GetComponent<Rigidbody2D>().constraints = ~RigidbodyConstraints2D.FreezeAll;
+                    this.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
                     rotating = false;
                     FlippableObjects.transform.RotateAround(flipAxis.transform.position, Vector3.up, 180- totalRotationAngle);
                 }
